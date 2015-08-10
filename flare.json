@@ -1,11 +1,14 @@
 {
  "name": "flare",
+ "toggle": "on",
  "children": [
   {
    "name": "analytics",
+   "toggle": "off",
    "children": [
     {
      "name": "cluster",
+     "toggle": "on",
      "children": [
       {"name": "AgglomerativeCluster", "size": 3938},
       {"name": "CommunityStructure", "size": 3812},
@@ -33,6 +36,7 @@
   },
   {
    "name": "animate",
+   "toggle":"off",
    "children": [
     {"name": "Easing", "size": 17010},
     {"name": "FunctionSequence", "size": 5842},
@@ -63,6 +67,7 @@
   },
   {
    "name": "data",
+   "toggle": "on",
    "children": [
     {
      "name": "converters",
